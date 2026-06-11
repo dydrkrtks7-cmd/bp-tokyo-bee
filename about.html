@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마곡 가라오케 추천정보 - 상세 가이드 & 찐후기</title>
+  <meta name="description" content="마곡 가라오케, 진짜 정보만 모았다. 가격, 위치, 분위기, 꿀팁까지 싹 다 공개. 전화 010-6279-0862로 바로 문의!">
+  <meta name="keywords" content="마곡 가라오케, 마곡 노래방, 마곡 가라오케 추천, 마곡 가라오케 가격, 마곡 가라오케 위치, 마곡 가라오케 후기, 마곡 가라오케 정보, tokyo-bee, 마곡 술집, 마곡 데이트">
+  <meta name="author" content="마곡 가라오케 bros">
+  <link rel="canonical" href="https://massage-yeouido-hub.xyz/about.html">
+  <!-- 디자인 시스템 메타 -->
+  <meta name="bpaas-design-system" content="brutalist-avantgarde">
+  <meta name="bpaas-design-theme" content="kr-neon-void">
+  <!-- OG 메타 -->
+  <meta property="og:title" content="마곡 가라오케 추천정보 - 거침없는 찐정보">
+  <meta property="og:description" content="마곡에서 놀려면 이거 하나면 끝. 가격부터 분위기까지 다 까발린다. 전화 010-6279-0862">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://massage-yeouido-hub.xyz/about.html">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="마곡 가라오케 bros">
+
+  <style>
+    /* ===== RESET & BASE ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      background: #0d0d0d;
+      color: #e0e0e0;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ===== TYPOGRAPHY ===== */
+    h1, h2, h3, h4 {
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -0.03em;
+      color: #f0f0f0;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin: 1.2rem 0;
+      border-left: 6px solid #ff2a6d;
+      padding-left: 1rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin: 1.6rem 0 0.8rem;
+      border-bottom: 2px solid #ff2a6d;
+      padding-bottom: 0.3rem;
+      display: inline-block;
+    }
+    h3 {
+      font-size: 1.3rem;
+      margin: 1rem 0 0.5rem;
+    }
+    p, li, .review-text, .desc {
+      font-size: 1rem;
+      color: #c0c0c0;
+      margin: 0.6rem 0;
+    }
+    a {
+      color: #ff2a6d;
+      text-decoration: none;
+      border-bottom: 1px dotted #ff2a6d;
+      transition: all 0.2s;
+    }
+    a:hover {
+      color: #ff6a9d;
+      border-bottom: 1px solid #ff6a9d;
+    }
+    strong, b {
+      color: #f0f0f0;
+      font-weight: 700;
+    }
+
+    /* ===== LAYOUT ===== */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.2rem;
+    }
+    section {
+      margin: 2.4rem 0;
+      padding: 1.2rem 0;
+      border-top: 1px solid #222;
+    }
+    section:first-of-type {
+      border-top: none;
+    }
+
+    /* ===== NAV ===== */
+    nav {
+      background: #1a1a1a;
+      padding: 0.8rem 0;
+      border-bottom: 2px solid #ff2a6d;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.2rem;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.6rem;
+      list-style: none;
+    }
+    .nav-links a {
+      color: #f0f0f0;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      border-bottom: none;
+      padding: 0.3rem 0;
+    }
+    .nav-links a:hover {
+      color: #ff2a6d;
+      border-bottom: 2px solid #ff2a6d;
+    }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0.3rem;
+    }
+    .hamburger span {
+      display: block;
+      width: 26px;
+      height: 2px;
+      background: #f0f0f0;
+      transition: 0.3s;
+    }
+
+    /* ===== CARDS ===== */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.2rem;
+      margin: 1.2rem 0;
+    }
+    .card {
+      background: #161616;
+      border: 1px solid #2a2a2a;
+      padding: 1.2rem;
+      border-radius: 4px;
+      transition: border 0.2s, transform 0.2s;
+    }
+    .card:hover {
+      border-color: #ff2a6d;
+      transform: translateY(-2px);
+    }
+    .card h3 {
+      font-size: 1.1rem;
+      margin: 0 0 0.6rem;
+    }
+    .card p {
+      font-size: 0.95rem;
+    }
+
+    /* ===== CTA ===== */
+    .cta-block {
+      background: #1a1a1a;
+      border: 2px solid #ff2a6d;
+      padding: 1.6rem;
+      text-align: center;
+      margin: 1.6rem 0;
+    }
+    .cta-block a {
+      display: inline-block;
+      background: #ff2a6d;
+      color: #0d0d0d;
+      font-weight: 800;
+      font-size: 1.2rem;
+      padding: 0.6rem 2rem;
+      border: none;
+      border-radius: 2px;
+      text-transform: uppercase;
+      transition: background 0.2s;
+      margin-top: 0.6rem;
+      border-bottom: none;
+    }
+    .cta-block a:hover {
+      background: #ff6a9d;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #111;
+      padding: 1.2rem 0;
+      text-align: center;
+      border-top: 1px solid #222;
+      margin-top: auto;
+    }
+    footer p {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    /* ===== RESPONSIVE (768) ===== */
+    @media (max-width: 768px) {
+      html { font-size: 15px; }
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #1a1a1a;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        border-bottom: 2px solid #ff2a6d;
+      }
+      .nav-links.open { display: flex; }
+      .hamburger { display: flex; }
+      h1 { font-size: 1.8rem; }
+      h2 { font-size: 1.4rem; }
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 네비게이션 (공통) -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" style="border:none; font-weight:800; color:#ff2a6d; font-size:1.2rem;">TOKYO BEE</a>
+      <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/">홈</a></li>
+        <li><a href="/info">정보</a></li>
+        <li><a href="/review">후기</a></li>
+        <li><a href="/price">가격</a></li>
+        <li><a href="tel:010-6279-0862">전화문의</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- 히어로 -->
+    <section>
+      <h1>마곡 가라오케 추천정보</h1>
+      <p class="desc"><strong>내가 직접 발로 뛰고 돈 써가며 모은 정보</strong>다. 마곡에서 가라오케 찾는 사람들한테 이거 하나면 충분. 가격, 위치, 분위기, 꿀팁까지 — 다 까발릴게. <a href="tel:010-6279-0862">010-6279-0862</a>로 전화하면 바로 예약 가능하니까 참고해.</p>
+    </section>
+
+    <!-- 상세 정보 섹션 -->
+    <section>
+      <h2>📍 위치 & 접근성</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>마곡역 도보 3분</h3>
+          <p>지하철 9호선 마곡역 4번 출구에서 걸어서 3분 컷. 차 가져와도 주차 가능하고, 주변에 발렛도 있음. 처음 오는 사람도 네이버 지도 찍으면 바로 찾아와.</p>
+        </div>
+        <div class="card">
+          <h3>주변 랜드마크</h3>
+          <p>LG사이언스파크 바로 옆이라 회식 장소로도 좋고, 데이트 코스로도 굿. 근처에 편의점, 음식점 많아서 놀기 전에 간단히 먹고 오기도 편해.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>💰 가격 정보 (2024년 기준)</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>평일 룸대여</h3>
+          <p>2시간 기준 <strong>4만원~6만원</strong> (방 크기 따라 다름). 음료 무료 리필, 안주는 따로. <br>친구 4명이서 가면 1인당 1만원 초반이면 충분히 즐겨.</p>
+        </div>
+        <div class="card">
+          <h3>주말/심야 추가 요금</h3>
+          <p>금토일은 약간 프리미엄 붙음. 그래도 다른 마곡 노래방이 비하면 양심적이야. 심야(23시 이후)에는 1시간당 1만원 추가 정도니까 부담 없어.</p>
+        </div>
+        <div class="card">
+          <h3>이벤트 & 패키지</h3>
+          <p>코스 요금제도 있어. 주류+안주+룸 2시간 패키지가 8만원. 엄청 싸다는 건 아니지만, 이 퀄리티에 이 가격이면 괜찮은 딜임.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🎤 시설 & 분위기</h2>
+      <p>내가 진짜 깜짝 놀란 건 <strong>음향</strong>이야. 일반 가라오케랑 비교하면 안 된다. 마이크도 좋고, 우퍼가 깔리는 느낌? 스피커가 JBL인가? 암튼 소리 찐. <br>조명은 무드등 조절 가능하고, 무대? 딱히 없지만 방이 널찍해서 소파에서 막 춤춰도 공간 남음. 청결도는 상위권. 화장실도 깔끔하더라.</p>
+    </section>
+
+    <section>
+      <h2>🕒 이용 팁</h2>
+      <ul style="padding-left:1.2rem;">
+        <li>예약은 꼭 전화로! <a href="tel:010-6279-0862">010-6279-0862</a>로 문자나 전화 주면 빠르게 처리해줌.</li>
+        <li>인원수 미리 알려주면 방 크기랑 가격 맞춰줘. 6명 이상이면 큰 방 추천.</li>
+        <li>주차 자리가 많지 않으니 대중교통 이용하거나 일찍 오는 게 좋아. 주말 저녁에는 만차 가능성 있음.</li>
+        <li>안주는 그냥 그렇다는 후기가 좀 있으니, 먹고 오거나 편의점에서 과자 사와도 됨. (반입 가능!)</li>
+      </ul>
+    </section>
+
+    <!-- CTA -->
+    <section>
+      <div class="cta-block">
+</body>
+</html>
