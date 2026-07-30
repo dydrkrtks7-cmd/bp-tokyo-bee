@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.massage-yeouido-hub.xyz/sitemap.xml
-Sitemap: https://blog.massage-yeouido-hub.xyz/sitemap-pages.xml
+Sitemap: https://hwagok-coin-karaoke-note.mens-esthe.space/sitemap.xml
+Sitemap: https://hwagok-coin-karaoke-note.mens-esthe.space/sitemap-pages.xml
